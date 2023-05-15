@@ -1,0 +1,19 @@
+Zadanie 1
+
+Innym reduktem decyzyjnym jest redukt {b, c, d}.
+
+Zadanie 2
+
+Reguły dla danego reduktu:
+
+a=0 ^ b=2 ^ d=0 => dec=0
+a=1 ^ b=2 ^ d=1 => dec=0
+a=2 ^ b=0 ^ d=1 => dec=1
+a=0 ^ b=2 ^ d=1 => dec=2
+
+Zredukowane reguły:
+
+a=1 => dec=0
+a=0 => dec=0
+b=0 => dec=1
+a=0 => dec=2
